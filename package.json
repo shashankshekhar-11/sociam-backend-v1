@@ -1,0 +1,30 @@
+{
+  "name": "sociam",
+  "version": "1.0.0",
+  "description": "My First Soical Media Web Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod_start": "NODE_ENV=production nodemon index.js"
+  },
+  "author": "shashankshekhar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "del": "^7.1.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "npm": "^10.2.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
