@@ -1,7 +1,9 @@
 //importing the express module
 const express = require('express');
 //assigning the port number
-const port = 8000;
+
+const port = process.env.PORT || 8000; // Use Render's assigned port
+
 //importing the path for development independent path
 const path = require('path');
 //importing body-parser for decoding the form payload (POST data)
