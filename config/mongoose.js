@@ -2,7 +2,7 @@
 const mongoose=require('mongoose');
 
 //connecting to the mongoDB
-mongoose.connect(`mongodb+srv://sociam1:sociam1@cluster0.aqcrn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
+mongoose.connect(`mongodb+srv://shashankshekhar746:<db_password>@sociam-v1.dt3odfl.mongodb.net/`);
 
 //acquring the connection
 const db=mongoose.connection;
